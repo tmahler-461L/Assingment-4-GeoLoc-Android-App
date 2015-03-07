@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Color Palette-->
+    <!--Prefixes represent shades, suffixes represent alpha change-->
+
+    <!-- Blacks -->
+    <color name="black">@android:color/black</color>
+    <color name="black_75_alpha">#b0000000</color>
+
+    <color name="transparent">@android:color/transparent</color>
+
+    <!-- Whites -->
+    <color name="white">@android:color/white</color>
+    <color name="transparent_white">#F0FFFFFF</color>
+
+    <!-- Grays -->
+    <color name="gray_text">#FF808080</color>
+    <color name="gray">#FFBFBFBF</color>
+    <color name="gray_bg">#FFF2F5FF</color>
+    <color name="gray_slate">#FF8FACBF</color>
+    <color name="gray_slate_selected">#FFB8CCD9</color>
+    <color name="gray_selected">#FF808080</color>
+
+    <!-- Blues -->
+    <color name="blue">#FF316D95</color>
+    <color name="blue_dark">#FF023854</color>
+    <color name="blue_confirm">#FF007AFF</color>
+    <color name="blue_search_light_transparent">#cf327099</color>
+    <color name="blue_search_dark_transparent">#cf004466</color>
+
+    <!-- Greens -->
+    <color name="green">#FF14C070</color>
+    <color name="green_selected">#FF00D974</color>
+
+    <color name="gold">#FFD700FF</color>
+    <color name="light_gold">#FFE039FF</color>
+
+    <!-- Oranges -->
+    <color name="orange">#FFE88425</color>
+    <color name="orange_selected">#FFFF9933</color>
+
+    <color name="red">#FFE24744</color>
+    <color name="gray_slate_divider">#FFC0D0E9</color>
+    <color name="black_50_alpha">#80000000</color>
+</resources>

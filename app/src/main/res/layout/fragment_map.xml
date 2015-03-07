@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_purchase_main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:weightSum="100"
+    tools:context="com.tim_461.androidgeolocationapp.GeoMapFragment">
+
+    <LinearLayout
+        android:id="@+id/ll_text_box"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/et_locationText"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/enter_location"
+            android:gravity="center_vertical"
+            android:textColor="@color/gray_text"
+            android:cursorVisible="true"
+            android:textSize="18sp"
+            android:background="#00000000"
+            android:singleLine="true"
+            android:imeOptions="actionDone"/>
+
+    </LinearLayout>
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/frame_mapView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="76"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+        <fragment
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:id="@+id/fl_mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <Button
+            android:id="@+id/b_streetView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_gold"
+            android:text="@string/street_view"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/b_mapNormal"
+            android:layout_width="0dp"
+            android:layout_weight=".33"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_green"
+            android:text="NYC"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/b_mapHybrid"
+            android:layout_width="0dp"
+            android:layout_weight=".34"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_red"
+            android:text="HYBRID"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/b_mapTerrain"
+            android:layout_width="0dp"
+            android:layout_weight=".33"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_blue"
+            android:text="TERRAIN"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>

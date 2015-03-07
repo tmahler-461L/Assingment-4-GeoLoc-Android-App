@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Android GeoLocation App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="street_view">Street</string>
+    <string name="reg_view">Norm</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_street_view">StreetViewActivity</string>
+</resources>
